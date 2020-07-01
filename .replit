@@ -1,0 +1,50 @@
+language = "python3"
+run = "Python3 weather.py"
+
+import requests
+
+place_list = 
+# construct a lo=ist of places that are tuples lat and lon
+# classes are defined before the function
+# class Weather Report
+
+def get_weather_data(lat, lon):
+  # [(65,7.8804° N, 98.3923° E89,"phuket")(56,90,"bali")]
+  [(16.5004° S, 151.7415° W,"Bora_Bora"),]
+  [(3.2028° N, 73.2207° E,"Maldives"),]
+  [15.8700° N, 100.9925° E,"Thailand"),]
+  [(31.7917° N, 7.0926° W,"Morocco"),]
+  [(31.7917° N, 7.0926° W,"Ethiopia"),]
+
+  
+  # give me temp and precip for a location, given lat and lon will make a request to 
+  # use [] to retrieve(get) items by position, like you can in list 
+  # ex...(lat, lat)[0]= lat
+url 
+= "https://api.climacell.co/v3/weather/realtime"
+
+payload = 
+  {"apikey":"pR3TEvOwhYmTYqwCbiovP7023f3MqiVx",
+  "fields": ["temp","precipitation","wind_gust",],}
+"lat":lat, 
+"lon":lon,
+"fields":["temp, "precipitation, pollen_count] 
+"unit_system":"us",
+
+
+# accesses dictionary
+('https://api.github.com/events')
+
+response = requests.get(url,
+params=payload).json()  
+# converts to Json
+print(response.text)
+
+#call function 
+get_weather_data(lat,lon)
+
+for 
+
+
+
+)
